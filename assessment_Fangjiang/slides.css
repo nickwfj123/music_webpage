@@ -1,0 +1,150 @@
+.carousel {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+}
+
+.carousel h1 {
+    font-size: 40px;
+    color: #001D5D;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.carousel p{
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Karla', sans-serif;
+}
+
+.carousel .text {
+    text-align: center;
+    width: 50%;
+    margin: -130px auto 50px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider_items {
+    margin: 0 20px;
+    height: 60px;
+    background-color: white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 3px 12px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 2px 3px 12px 5px rgba(0,0,0,0);
+    border-radius: 5px;
+    display: flex !important;
+    /* display: inline; */
+}
+.slider_items .wrapper{
+    /* display: inline-block; */
+    background-color: rgb(248, 248, 248);
+}
+
+.slick-slide img {
+    margin: 0 20px;
+    /* height: px; */
+    padding: 50px 5px;
+    /* display: inline; */
+
+}
+
+.slider_items .cardText {
+    /* height: px; */
+    /* display: inline-block; */
+    width: 55%;
+    margin: auto
+}
+
+.slider_items .cardText span{
+    /* height: px; */
+    /* top:0; */
+    display: block;
+}
+
+.cardText span:nth-child(1) {
+    font-size: 30px;
+    color: #001D5D;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.cardText span:nth-child(2) {
+    font-size: 16px;
+    color: #68c242;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.cardText span:nth-child(3) {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+
+.slick-arrow:nth-child(1){
+    bottom:-100px;
+    left: 47%;
+    position: absolute;
+}
+
+.slick-arrow:last-child{
+    bottom:-100px;
+    left: 53%;
+    position: absolute;
+}
+
+.slick-slide {
+    opacity:.6
+}
+
+.slick-center {
+    opacity:1
+}
+
+@media (max-width:768px) {
+    .carousel {
+        width: 100%;
+        height:100vh
+    }
+
+    .carousel .text p {
+        display: none;
+    }
+
+    .carousel img{
+        margin: auto;
+        /* margin-left: 50px; */
+        text-align: center;
+    }
+
+    .carousel .cardText {
+        margin: auto;
+        text-align: center;
+    }
+
+    .carousel .cardText span:last-child {
+        display: none;
+    }
+
+    .carousel .slider_items{
+        display: block !important;
+    }
+
+    .slick-slide {
+        opacity: 0.6
+    }
+    
+    .slick-center {
+        opacity:1
+    }
+}

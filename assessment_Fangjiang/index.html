@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synder Recording</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./navigation.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./slides.css">
+    <link rel="stylesheet" href="./slick.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <span><img src="./FrontendTest/logo/PNGS/SRrecordings.png" alt=""></span>
+            <nav>
+                <a href=""><img src="./FrontendTest/Icons/PNGs/Home.png" alt="">Home</a>
+                <a href=""><img src="./FrontendTest/Icons/PNGs/Records.png" alt="">Records</a>
+                <a href=""><img src="./FrontendTest/Icons/PNGs/Music.png" alt="">Music</a>
+                <a href=""><img src="./FrontendTest/Icons/PNGs/Artists.png" alt="">Artists</a>
+                <a href=""><img src="./FrontendTest/Icons/PNGs/Concerts.png" alt="">Concerts</a>
+                <button>Sign Up</button>
+                <a id="hamburger">☰</a>
+            </nav>
+        </header>
+
+
+        <section class='hero'>
+            <div class='image1'></div>
+            <div class='text1'>
+                <h1>A.M. Paradox</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, iure animi. Pariatur obcaecati
+                    facilis
+                    reiciendis quis, eius consectetur ipsum ullam eveniet quaerat modi ab repudiandae ad soluta rem,
+                    cupiditate ipsam.</p>
+                <img src="./FrontendTest/Icons/PNGs/Play_button.png" alt="">
+                <span>Watch Video</span>
+
+            </div>
+        </section>
+
+        <section class='faiyaz'>
+
+            <img src="./FrontendTest/Images/image2.png" alt="">
+            <div>
+                <h1>Brent Faiyaz, So Far Gone</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, iure animi. Pariatur obcaecati
+                    facilis
+                    reiciendis quis, eius consectetur ipsum ullam eveniet quaerat modi ab repudiandae ad soluta rem,
+                    cupiditate ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, maiores? Ducimus
+                    hic error mollitia laboriosam perspiciatis illum molestias dolorem quas voluptas ipsam ex dolores
+                    magnam minima blanditiis quo, provident adipisci.</p>
+                <button>Learn More</button>
+            </div>
+        </section>
+
+        <div class='carousel'>
+            <div class='text'>
+                <h1>New Release</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, sapiente. Incidunt assumenda
+                    temporibus
+                    illo ipsa. Voluptatibus quaerat obcaecati nostrum repellendus perferendis dolorum rem culpa
+                    consectetur,
+                    doloremque sed porro est quibusdam.</p>
+            </div>
+            <div class='slider'>
+                <div class='slider_items'>
+                    <div class='wrapper'>
+                        <img src="./FrontendTest/Images/image4.png" alt="">
+                    </div>
+                    <div class='cardText'>
+                        <span>Trapsoul</span>
+                        <span>Bryson Tiller</span>
+                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam dignissimos quae nesciunt
+                            libero unde, sit hic nemo accusamus at repellendus repudiandae minus ad autem recusandae,
+                            consequatur, porro harum nam iure!</span>
+                    </div>
+
+                </div>
+                <div class='slider_items'>
+                    <div class='wrapper'>
+                        <img src="./FrontendTest/Images/image4.png" alt="">
+                    </div>
+                    <div class='cardText'>
+                        <span>Trapsoul</span>
+                        <span>Bryson Tiller</span>
+                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam dignissimos quae nesciunt
+                            libero unde, sit hic nemo accusamus at repellendus repudiandae minus ad autem recusandae,
+                            consequatur, porro harum nam iure!</span>
+                    </div>
+                </div>
+                <div class='slider_items'>
+                    <div class='wrapper'>
+                        <img src="./FrontendTest/Images/image4.png" alt="">
+                    </div>
+                    <div class='cardText'>
+                        <span>Trapsoul</span>
+                        <span>Bryson Tiller</span>
+                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam dignissimos quae nesciunt
+                            libero unde, sit hic nemo accusamus at repellendus repudiandae minus ad autem recusandae,
+                            consequatur, porro harum nam iure!</span>
+                    </div>
+                </div>
+                <div class='slider_items'>
+                    <div class='wrapper'>
+                        <img src="./FrontendTest/Images/image4.png" alt="">
+                    </div>
+                    <div class='cardText'>
+                        <span>Trapsoul</span>
+                        <span>Bryson Tiller</span>
+                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam dignissimos quae nesciunt
+                            libero unde, sit hic nemo accusamus at repellendus repudiandae minus ad autem recusandae,
+                            consequatur, porro harum nam iure!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id='map' style='height: 70vh;'></div>
+
+        <section class='form'>
+            <div>
+                <div class='context'>
+                    <h1>Get In Touch</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta omnis tenetur quae! Natus ab ea
+                        libero nostrum sunt deleniti labore tempore dicta quibusdam sapiente! Atque quis facilis
+                        veritatis ipsa blanditiis?</p>
+                </div>
+                <form action="">
+                    <div style='margin-bottom: 30px;'>
+                        <input type="text" placeholder="First Name" style='margin-right: 30px;'>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div style='margin-bottom: 30px;'>
+                        <input type="email" placeholder="Email Address" style='margin-right: 30px;'>
+                        <input type="option" placeholder="Reason for Contacting">
+                    </div>
+                    <div><input type="text" placeholder='Write a breif message......'></div>
+                </form>
+                <div><button>Send Meassage</button></div>
+
+            </div>
+            <img src="./FrontendTest/Images/image3.png" alt="">
+
+        </section>
+
+        <footer>
+            <div class='upper'>
+                <div class='footerLogo'>
+                    <img src="./FrontendTest/logo/PNGS/SRrecordings_white.png" alt="">
+                    <div>
+                        <p>8521 W Fairfax Rd</p>
+                        <p>Los Angeles, CA</p>
+                        <p>90210</p>
+                        <p>909.505.4302</p>
+                    </div>
+                </div>
+                <div class='cols'>
+                    <ul>
+                        <li>EXPLORE</li>
+                        <li>Explore</li>
+                        <li>Our Story</li>
+                        <li>Team</li>
+                        <li>Careers</li>
+                        <li>FAQ</li>
+                    </ul>
+                    <ul>
+                        <li>MUSIC</li>
+                        <li>Missing Out</li>
+                        <li>Trapsoul</li>
+                        <li>Sonder Sons</li>
+                        <li>Paradise Today</li>
+                        <li>Needed</li>
+                    </ul>
+                    <ul>
+                        <li>ARTISTS</li>
+                        <li>Brent Faiyaz</li>
+                        <li>Drake</li>
+                        <li>Byson Tiller</li>
+                        <li>Young Ford</li>
+                        <li>Rory Fresco</li>
+                    </ul>
+                    <ul>
+                        <li>RECORDS</li>
+                        <li>What a Time</li>
+                        <li>Coming Home</li>
+                        <li>Always First</li>
+                        <li>So Far Gone</li>
+                        <li>Big Blues</li>
+                    </ul>
+                    <ul>
+                        <li>CONCERTS</li>
+                        <li>Midland Live</li>
+                        <li>Ganada 2018</li>
+                        <li>Tiller Unplugged</li>
+                        <li>Love Live</li>
+                        <li>XX Live Max</li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="width:89%; border: .1px solid #b8bfcf">
+            <div class='lower'>
+                <div>
+                    <a href="">Privacy Policy</a>
+                    <a href="" style="margin-left: 20px">Terms & Conditions</a>
+                </div>
+                <div class="icons">
+                    <img style='margin-right: 15px;' src="./FrontendTest/Icons/PNGs/Youtube.png" alt="">
+                    <img style='margin-right: 15px;' src="./FrontendTest/Icons/PNGs/Twitter.png" alt="">
+                    <img style='margin-right: 15px;' src="./FrontendTest/Icons/PNGs/Instagram.png" alt="">
+                    <img src="./FrontendTest/Icons/PNGs/Snapchaat.png" alt="">
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./slick.min.js"></script>
+    <script src="./custom.js"></script>
+    <script src="./navigation.js"></script>
+    <!-- map API -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <script src="./map.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+#hamburger{
+    color: black;
+    font-weight: bolder;
+    display: none;
+}
+
+@media screen and (max-width: 769px) {
+    nav {
+        justify-content: flex-end;
+    }
+    
+    nav a {
+        display: none;
+    }
+    nav button {
+        display: none;
+
+    }
+  
+    .openNav {
+        flex-direction: column;
+        height: 40vh;
+
+    }
+
+    .openNav span {
+        margin-top: 10px;
+    }
+
+    .openNav nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .openNav nav a{
+        display: block;
+    }
+
+    .openNav nav button{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .openNav #hamburger {
+        display: block;
+        margin-top: 10px;
+        margin-left: 20px;    
+}
+
+
+    #hamburger {
+        display: block;
+        padding-right: 30px;
+        font-size: 30px;
+    }
+
+}
